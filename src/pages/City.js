@@ -1,5 +1,6 @@
 import React from 'react'
 import City from  "../images/City.jpg";
+import './App.css'
 export default function City() {
   return (
     <div className="App">
