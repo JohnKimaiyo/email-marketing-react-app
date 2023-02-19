@@ -1,5 +1,5 @@
 import React from "react";
-import Status from "../images/Status.jpg";
+import status from "../images/status.jpg";
 import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function LivingStatus() {
@@ -9,7 +9,7 @@ export default function LivingStatus() {
       <p>
         Go to the <NavLink to="/">HomePage</NavLink>
       </p>
-      <img src={Status} height={900} width={1300} />
+      <img src={status} height={900} width={1300} />
     </div>
   );
 }

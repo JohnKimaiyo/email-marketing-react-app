@@ -1,5 +1,5 @@
 import React from "react";
-import Sumary from "../images/Summary.jpg";
+import summary from "../images/summary.jpg";
 import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function Summary() {
@@ -15,7 +15,7 @@ export default function Summary() {
         mbined Visuals
       </h3>
 
-      <img src={Sumary} height={900} width={1300} />
+      <img src={summary} height={900} width={1300} />
     </div>
   );
 }

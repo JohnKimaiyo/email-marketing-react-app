@@ -1,5 +1,5 @@
 import React from "react";
-import State from "../images/State";
+import state from "../images/state";
 import { NavLink } from "react-router-dom";
 import "./App.css";
 export default function State() {
@@ -9,7 +9,7 @@ export default function State() {
       <p>
         Go to the <NavLink to="/">Homepage</NavLink>.
       </p>
-      <img src={State} height={900} width={1300} />{" "}
+      <img src={state} height={900} width={1300} />{" "}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Year from "../images/Year.jpg";
+import year from "../images/year.jpg";
 import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function Year() {
@@ -9,7 +9,7 @@ export default function Year() {
       <p>
         Go to the <NavLink to="/">Homepage</NavLink>.
       </p>
-      <img src={Year} heaight={900} width={1300} />
+      <img src={year} heaight={900} width={1300} />
     </div>
   );
 }
