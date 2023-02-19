@@ -27,6 +27,12 @@ import "./App.css";
 
 const routes = [
   { path: "/", name: "HomePage", element: <HomePage />, nodeRef: createRef() },
+  {
+    path: "/summary",
+    name: "Summary",
+    element: <Summary />,
+    nodeRef: createRef(),
+  },
   { path: "/city", name: "City", element: <City />, nodeRef: createRef() },
   {
     path: "/gender",
@@ -59,12 +65,7 @@ const routes = [
     nodeRef: createRef(),
   },
   { path: "/state", name: "State", element: <State />, nodeRef: createRef() },
-  {
-    path: "/summary",
-    name: "Summary",
-    element: <Summary />,
-    nodeRef: createRef(),
-  },
+
   { path: "/time", name: "Time", element: <Time />, nodeRef: createRef() },
   { path: "/year", name: "Year", element: <Year />, nodeRef: createRef() },
 ];
@@ -124,5 +125,5 @@ export default function App() {
 }
 
 const container = document.getElementById("root");
-const root = createRoot(container)
+const root = createRoot(container);
 root.render(<RouterProvider router={router} />);

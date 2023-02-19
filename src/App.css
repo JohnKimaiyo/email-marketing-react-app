@@ -24,7 +24,7 @@
   transform: scale(0);
   transition: opacity 300s, transform 300ms;
 }
-.Gender{
-  h1:center;
-  p:center
+
+.App{
+  background-color: rgb(203, 207, 207);
 }
