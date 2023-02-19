@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function NotFound() {
   return (
-    <div>
+    <div className="App">
       <h2>Page not found!</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias

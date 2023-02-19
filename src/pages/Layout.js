@@ -1,14 +1,14 @@
 import { Outlet, Link } from "react-router-dom";
 export default function Layout() {
   return (
-    <div>
+    <div className="App">
       <nav>
         <ul>
           <li>
             <Link to="/">HomePage</Link>
           </li>
           <li>
-            <Link to="/city">Summary</Link>
+            <Link to="/summary">Summary</Link>
           </li>
           <li>
             <Link to="/city">City</Link>
@@ -23,7 +23,7 @@ export default function Layout() {
             <Link to="/maritalstatus">MaritalStatus</Link>
           </li>
           <li>
-            <Link to="/status">State</Link>
+            <Link to="/state">State</Link>
           </li>
           <li>
             <Link to="/time">Time</Link>
