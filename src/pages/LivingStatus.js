@@ -1,5 +1,6 @@
 import React from "react";
 import Status from "../images/Status.jpg";
+import "./App.css"
 export default function LivingStatus() {
   return (
     <div>

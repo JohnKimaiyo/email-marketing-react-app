@@ -1,5 +1,6 @@
 import React from "react";
 import Year from "../images/Year.jpg";
+import "./App.css"
 export default function Year() {
   return (
     <div>

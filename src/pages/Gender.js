@@ -1,5 +1,6 @@
 import React from 'react'
 import Gender from "../images/Gender.jpg"
+import "./App.css"
 export default function Gender() {
   return (
     <div>

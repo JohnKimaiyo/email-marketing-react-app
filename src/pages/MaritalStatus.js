@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css"
 import Marital from "../images/Marital.jpg";
 export default function MaritalStatus() {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import Sumary from "../images/Summary.jpg";
+import "./App.css"
 export default function Summary() {
   return (
     <div>

@@ -1,5 +1,6 @@
 import React from "react";
 import State from "../images/State";
+import "./App.css"
 export default function State() {
   return (
     <div>
