@@ -7,7 +7,7 @@ export default function Year() {
     <div className="App">
       <h1>Count by Year</h1>
       <p>
-        Go to the <NavLink to="/">Homepage</NavLink>.
+        Return to  <NavLink to="/">Homepage</NavLink>.
       </p>
       <img src={year} heaight={900} width={1300} />
     </div>

@@ -7,7 +7,7 @@ export default function MaritalStatus() {
     <div  classsName="App.css">
       <h1>Count on Marital status</h1>
       <p>
-        Fo the <NavLink to="/">Home Page</NavLink>
+        Return to  <NavLink to="/">Home Page</NavLink>
       </p>
       <img src={marital} height={900} width={1300} />
     </div>

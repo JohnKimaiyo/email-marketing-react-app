@@ -12,7 +12,7 @@ export default function NotFound() {
       </p>
 
       <p>
-        Go to the <NavLink to="/">Homepage</NavLink>.
+        Return to  <NavLink to="/">Homepage</NavLink>.
       </p>
     </div>
   );

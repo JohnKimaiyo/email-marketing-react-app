@@ -8,7 +8,7 @@ export default function Time() {
       <h1>Count b Time visual</h1>
       <img src={time} height={900} width={1300} />
       <p>
-        Go to the <NavLink to="/">Homepage</NavLink>.
+        Return to <NavLink to="/">Homepage</NavLink>.
       </p>
     </div>
   );
