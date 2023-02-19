@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Gender() {
   return (
-    <div>
+    <div className="gender">
       <h1>Count by Gender Visuals</h1>
       <p>
         Go to the <NavLink to="">HomePage</NavLink>

@@ -4,7 +4,7 @@ import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function Year() {
   return (
-    <div>
+    <div className="year">
       <h1>Count by Year</h1>
       <p>
         Go to the <NavLink to="/">Homepage</NavLink>.

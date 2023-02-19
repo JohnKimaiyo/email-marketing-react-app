@@ -1,11 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //import pages
 import HomePage from "./pages/HomePage";
@@ -16,8 +11,25 @@ import MaritalStatus from "./pages/MaritalStatus";
 import State from "./pages/State";
 import Time from "./pages/Time";
 import Year from "./pages/Year";
-function App() {
-  return <div className="App"></div>;
-}
+import NotFound from "./pages/NotFound";
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="summary" element={<Summary />} />
+          <Route path="city" element={<City />} />
+          <Route path="gender" element={<Gender />} />
+          <Route path="livingstatus" element={<LivingStatus />} />
+          <Route path="maritalstatus" element={<MaritalStatus />} />
+          <Route path="state" element={<State />} />
+          <Route path="time" element={<Time />} />
+          <Route path="year" element={<Year />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}

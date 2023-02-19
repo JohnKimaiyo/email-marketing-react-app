@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./App.css";
 export default function State() {
   return (
-    <div>
+    <div className="State">
       <h1>Count by State</h1>
       <p>
         Go to the <NavLink to="/">Homepage</NavLink>.

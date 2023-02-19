@@ -4,7 +4,7 @@ import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function LivingStatus() {
   return (
-    <div>
+    <div  className="livingstatus">
       <h1>Count on Living Status</h1>
       <p>
         Go to the <NavLink to="/">HomePage</NavLink>

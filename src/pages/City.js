@@ -4,7 +4,7 @@ import "./App.css";
 import { NavLink } from "react-router-dom";
 export default function City() {
   return (
-    <div className="App">
+    <div className="city">
       <h1>Count by City Visual</h1>
       <p>
         Go to <NavLink to="/">HomePage</NavLink>
