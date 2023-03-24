@@ -77,7 +77,7 @@ export default function Header() {
 
           <td>
             <a
-              href="https://github.com/JohnKimaiyo/Olympics-Data-Analysis-React-App/blob/main/src/Power%20BI%20Dashboard/Olympics%20Dashboard.pdf"
+              href="https://github.com/JohnKimaiyo/email-marketing-react-app/blob/main/src/Power%20BI/Email%20List%20Dashboard.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -110,7 +110,7 @@ export default function Header() {
           <td>Check out my Power BI Sales Insights Dashbord File</td>
           <td>
             <a
-              href="https://github.com/JohnKimaiyo/Olympics-Data-Analysis-React-App/blob/main/src/Power%20BI%20Dashboard/Olympics%20Data.pbit"
+              href="https://github.com/JohnKimaiyo/email-marketing-react-app/blob/main/src/Power%20BI/Email%20List%20Dashboard.pbix"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -123,7 +123,7 @@ export default function Header() {
           <td>Checkout sql statement to clean up the data</td>
           <td>
             <a
-              href="https://github.com/JohnKimaiyo/Olympics-Data-Analysis-React-App/blob/main/src/SQL%20Scripts/dbo.sql"
+              href="https://github.com/JohnKimaiyo/email-marketing-react-app/blob/main/src/SQL%20Scripts/dbo.sql"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -132,8 +132,8 @@ export default function Header() {
           </td>
         </tr>
         <tr>
-          <td> Olympics Source Files </td>
-          <td> Olympics Kaggle Dataset</td>
+          <td> Email  List Source Files </td>
+          <td> Emil List Kaggle Dataset</td>
           <td>
             <a
               href="https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results"
@@ -145,11 +145,11 @@ export default function Header() {
           </td>
         </tr>
         <tr>
-          <td> Olympics JSON Files </td>
-          <td> Olympics JSON Dataset</td>
+          <td> Email List JSON Files </td>
+          <td> Email List JSON Dataset</td>
           <td>
             <a
-              href="https://github.com/JohnKimaiyo/Olympics-Data-Analysis-React-App/blob/main/src/Source%20Files/athletes.json"
+              href="https://github.com/JohnKimaiyo/email-marketing-react-app/blob/main/src/Source%20Files/email.json"
               target="_blank"
               rel="noopener noreferrer"
             >
