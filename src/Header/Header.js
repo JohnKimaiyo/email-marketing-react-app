@@ -3,7 +3,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div>
-      <h2>Email  Analysis Business Requests</h2>
+      <h2>Email List Analysis Business Requests</h2>
 
       <table>
         <tr>
@@ -133,10 +133,10 @@ export default function Header() {
         </tr>
         <tr>
           <td> Email  List Source Files </td>
-          <td> Emil List Kaggle Dataset</td>
+          <td> Email List Kaggle Dataset</td>
           <td>
             <a
-              href="https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
